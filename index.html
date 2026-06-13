@@ -716,29 +716,40 @@
     <p class="sub">(Мы только начали. <em>Прямо сейчас Вы можете присоединиться, посмотреть первые два занятия в записи и продолжить практиковать на наших живых занятиях, начиная с утра субботы</em>)<br><br><span class="hl">Набор закроется в пятницу вечером 12 июня. 10 мест.</span> Присоединиться можно по ссылке ниже. <span style="display:block;margin:16px 0;padding:14px 18px;background:var(--bg3);border-left:3px solid var(--amber);font-size:0.95rem;color:var(--text);line-height:1.8;border-radius:0 3px 3px 0">Так как в июле буду в <strong>30-дневном уединении</strong> (индивидуальный ретрит медитации), следующий набор будет только <strong>в августе.</strong></span><br><br>У Вас также останется доступ ко всем ресурсам «Спокойного места» в июле. <span class="hl">То есть присоединяясь сейчас, Вы получите доступ на 2 месяца.</span><br><br>
     Бот добавит вас в «Спокойное место» (закрытую группу в Телеграм) автоматически после оплаты. Если этого не произошло по какой-либо технической причине, пожалуйста, напишите на: <a href="mailto:lev@yogashkola.com" style="color:var(--amber);text-decoration:none;border-bottom:1px solid rgba(160,120,64,0.3)">lev@yogashkola.com</a></p>
 
-    <div class="price-block">
-      <h3>Абонемент на июнь</h3>
-      <ul>
-        <li><strong>8 живых занятий</strong> со Львом — древняя йогическая наука мантр</li>
-        <li>Занятия <strong>6–7 · 13–14 · 20–21 · 27–28 июня</strong></li>
-        <li>Доступ ко всем материалам «Спокойного места» <strong>в июне и июле</strong></li>
-        <li>Мантра месяца на <strong>устранение внутренних и внешних препятствий</strong></li>
-        <li><strong>Прямая поддержка</strong> Льва в закрытой группе в Телеграм, ответы на вопросы по практике месяца</li>
-      </ul>
-      <div class="price-wrap">
-        <div class="price-amount">4 400 ₽</div>
-        <p class="price-note">Для оплаты используется сервис Tribute в Телеграм. Если не открывается — попробуйте другой VPN. Сервис может взимать небольшую дополнительную комиссию.</p>
+    <div style="position:relative">
+
+      <!-- Blurred overlay over price block and everything below -->
+      <div style="position:relative;overflow:hidden;border-radius:2px">
+        <!-- The content underneath (blurred) -->
+        <div style="filter:blur(5px);user-select:none;pointer-events:none;opacity:0.45">
+          <div class="price-block">
+            <h3>Абонемент на июнь</h3>
+            <ul>
+              <li><strong>8 живых занятий</strong> со Львом — древняя йогическая наука мантр</li>
+              <li>Занятия <strong>6–7 · 13–14 · 20–21 · 27–28 июня</strong></li>
+              <li>Доступ ко всем материалам «Спокойного места» <strong>в июне и июле</strong></li>
+              <li>Мантра месяца на <strong>устранение внутренних и внешних препятствий</strong></li>
+              <li><strong>Прямая поддержка</strong> Льва в закрытой группе в Телеграм, ответы на вопросы по практике месяца</li>
+            </ul>
+            <div class="price-wrap">
+              <div class="price-amount">4 400 ₽</div>
+              <p class="price-note">Для оплаты используется сервис Tribute в Телеграм.</p>
+            </div>
+          </div>
+          <div style="height:28px"></div>
+          <div style="display:inline-block;padding:16px 52px;border:1px solid rgba(201,169,110,0.5);font-size:0.68rem;letter-spacing:0.22em;color:var(--amber)">Присоединиться</div>
+        </div>
+
+        <!-- Overlay message on top -->
+        <div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;background:rgba(13,12,10,0.55);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);padding:40px 24px;text-align:center;gap:20px">
+          <p style="font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(1.3rem,3vw,1.9rem);font-weight:300;color:var(--text);line-height:1.3">
+            Набор закрыт.<br><em style="color:var(--amber)">Следующий — в августе 2026 года.</em>
+          </p>
+          <p style="font-size:0.9rem;color:var(--muted);line-height:1.7">Сейчас Вы можете записаться в Лист ожидания.</p>
+          <a href="tg://resolve?domain=YogashkolaBot&start=c1772799156531-test" class="btn-primary" style="margin-top:8px">Лист ожидания</a>
+        </div>
       </div>
-    </div>
 
-    <label class="consent">
-      <input type="checkbox" id="consent-check">
-      <span class="box"></span>
-      <span>Я даю своё согласие на обработку персональных данных и соглашаюсь с <a href="https://yogashkola.com/politika-shkola" target="_blank">политикой конфиденциальности</a></span>
-    </label>
-
-    <div style="margin-top:8px">
-      <a href="https://web.tribute.tg/s/WPZ" target="_blank" class="btn-primary">Присоединиться</a>
     </div>
   </div>
 </div>
